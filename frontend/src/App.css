@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  background: #e5edef;
+}
+
+#theForm {
+  background: #ffffff;
+  margin: 30px auto;
+  max-width: 200px;
+  padding: 20px;
+  border: 1px solid #777;
+  box-shadow: 1px 1px 3px #333;
+}
+
+#theForm > div {
+  display: flex;
+  flex-direction: column;
+}
+#theForm > div label {
+  text-align: left;
+}
+input {
+  background: #e4eded;
+  border: 1px solid #dddddd;
+  margin: 2px 0 10px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.submitBtn {
+  background: #00a0e4;
+  border: 1px solid #00a0e4;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
